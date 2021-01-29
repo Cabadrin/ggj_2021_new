@@ -31,4 +31,4 @@ bonk_speed = 1.5;
 //Get me the tilemap ID, use it for collisions
 collision_map = layer_tilemap_get_id(layer_get_id("collidable"));
 
-map_done = false;
+npc_battle = false;
