@@ -32,3 +32,5 @@ bonk_speed = 1.5;
 collision_map = layer_tilemap_get_id(layer_get_id("collidable"));
 
 npc_battle = false;
+
+test_variable = false;
