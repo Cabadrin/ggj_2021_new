@@ -100,9 +100,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":128.0,"resourceVersion":"1.0","name":"inst_44B157A5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":96.0,"resourceVersion":"1.0","name":"inst_13C02A8C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2080.0,"y":128.0,"resourceVersion":"1.0","name":"inst_F88C47C","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"treasure_found","path":"objects/obj_treasure_heap/obj_treasure_heap.yy",},"objectId":{"name":"obj_treasure_heap","path":"objects/obj_treasure_heap/obj_treasure_heap.yy",},"value":"You've found the treasure! \\nTake a sample of it back to the Client!\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_treasure_heap","path":"objects/obj_treasure_heap/obj_treasure_heap.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_635CFE0A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"sprites_bg_decor","tags":[],"resourceType":"GMRAssetLayer",},
     {"tilesetId":{"name":"til_town","path":"tilesets/til_town/til_town.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":40,"SerialiseHeight":24,"TileSerialiseData":[
@@ -168,7 +165,6 @@
     {"name":"inst_44B157A5","path":"rooms/room_woods_two/room_woods_two.yy",},
     {"name":"inst_13C02A8C","path":"rooms/room_woods_two/room_woods_two.yy",},
     {"name":"inst_F88C47C","path":"rooms/room_woods_two/room_woods_two.yy",},
-    {"name":"inst_635CFE0A","path":"rooms/room_woods_two/room_woods_two.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

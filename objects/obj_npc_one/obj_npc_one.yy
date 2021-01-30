@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_npc1_idle",
-    "path": "sprites/spr_npc1_idle/spr_npc1_idle.yy",
+    "name": "spr_npc",
+    "path": "sprites/spr_npc/spr_npc.yy",
   },
   "solid": false,
   "visible": true,
