@@ -14,6 +14,7 @@ global.score_this_room = 0;
 global.item_one = false;
 global.item_two = false;
 global.item_three = false;
+global.quest_stage = 0;
 
 //Set in macros
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);

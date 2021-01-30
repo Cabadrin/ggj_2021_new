@@ -8,6 +8,7 @@ if (point_in_circle(obj_player.x,obj_player.y,x,y,128)) && (!instance_exists(obj
 		if (global.item_one == false)
 		{
 		text = other.text_unfulfilled;
+		global.quest_stage = 1;
 		}
 		else
 		{

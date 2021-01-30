@@ -1,0 +1,1 @@
+text_cooldown = text_cooldown - 1;
