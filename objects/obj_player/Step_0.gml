@@ -42,6 +42,19 @@ if (tilemap_get_at_pixel(collision_map,x + hsp,y))
 	//Stop me
 	hsp = 0;
 }
+
+//Find out if there's a collidable object horizontally
+if(place_meeting(x+hsp,y,par_collidable))
+{
+	while(!place_meeting(x+sign(hsp),y,par_collidable))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0
+}
+x = x + hsp;
+
+
 //Now set my horizontal movement
 x = x + hsp;
 
@@ -54,6 +67,17 @@ if (tilemap_get_at_pixel(collision_map,x,y + vsp))
 	if (sign(vsp) == 1) y += TILE_SIZE - 1;
 	//Stop me
 	vsp = 0;
+}
+
+//Find out if there's a collidable object vertically
+if(place_meeting(x,y+vsp,par_collidable))
+{
+	while(!place_meeting(x,y+sign(vsp),par_collidable))
+	{
+		y = y + sign(vsp);
+	}
+	//Stop me
+	vsp = 0
 }
 //Now set my vertical movement
 y += vsp;

@@ -10,5 +10,4 @@ function scr_transitions() {
 		if (argument_count > 1) target = argument[1];
 	}
 
-
 }
