@@ -1,9 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_player_animate() {
-	// @desc set the player's sprite based on their direction
-	// @arg mode sets the transition mode 
-	// @arg target sets the target room for GOTO
 
 	//Get however many frames the image has and divide by 4
 	var v_totalframes = sprite_get_number(sprite_index) / 4;
