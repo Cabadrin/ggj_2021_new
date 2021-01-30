@@ -12,6 +12,6 @@ function scr_macros() {
 #macro ROOM_START room_
 //Game res settings on start
 #macro RESOLUTION_W 1280
-#macro RESOLUTION_H 720
+#macro RESOLUTION_H 768
 
 }

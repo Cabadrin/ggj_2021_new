@@ -32,16 +32,6 @@ hsp = h_move * spd_walk;
 
 vsp = v_move * spd_walk;
 
-//Find out if there is a tile horizontally
-if (tilemap_get_at_pixel(collision_map,x + hsp,y))
-{
-	//Mod returns a remainder. How many times does tile size go into the x? Puts us at the very left of the tile.
-	x -= x mod TILE_SIZE
-	//Move me to the right if I am in the tile, and need to go to the right
-	if (sign(hsp) == 1) x += TILE_SIZE - 1;
-	//Stop me
-	hsp = 0;
-}
 
 //Find out if there's a collidable object horizontally
 if(place_meeting(x+hsp,y,par_collidable))
@@ -57,17 +47,6 @@ x = x + hsp;
 
 //Now set my horizontal movement
 x = x + hsp;
-
-//Find out if there is a tile vertically
-if (tilemap_get_at_pixel(collision_map,x,y + vsp))
-{
-	//Mod returns a remainder. How many times does tile size go into the x? Puts us at the very left of the tile.
-	y -= y mod TILE_SIZE
-	//Move me to the right if I am in the tile, and need to go to the right
-	if (sign(vsp) == 1) y += TILE_SIZE - 1;
-	//Stop me
-	vsp = 0;
-}
 
 //Find out if there's a collidable object vertically
 if(place_meeting(x,y+vsp,par_collidable))
