@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "map_stand",
-    "path": "sprites/map_stand/map_stand.yy",
+    "name": "spr_map_stand",
+    "path": "sprites/spr_map_stand/spr_map_stand.yy",
   },
   "solid": false,
   "visible": true,

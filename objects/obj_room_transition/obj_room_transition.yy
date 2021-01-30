@@ -31,8 +31,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Walls and Volumes",
+    "path": "folders/Objects/Walls and Volumes.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_room_transition",

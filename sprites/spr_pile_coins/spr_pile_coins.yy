@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 0,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_right": 127,
+  "bbox_top": 12,
+  "bbox_bottom": 123,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 128,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"931b3128-5501-4e56-8d20-f1728fcf7d28","path":"sprites/map_stand/map_stand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"931b3128-5501-4e56-8d20-f1728fcf7d28","path":"sprites/map_stand/map_stand.yy",},"LayerId":{"name":"1865baeb-c5f1-44a2-b9bf-72944050806c","path":"sprites/map_stand/map_stand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"map_stand","path":"sprites/map_stand/map_stand.yy",},"resourceVersion":"1.0","name":"931b3128-5501-4e56-8d20-f1728fcf7d28","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c00dc565-169b-44b8-8608-31a869c251df","path":"sprites/spr_pile_coins/spr_pile_coins.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c00dc565-169b-44b8-8608-31a869c251df","path":"sprites/spr_pile_coins/spr_pile_coins.yy",},"LayerId":{"name":"e1917b29-b098-40c4-bb69-23af114bceda","path":"sprites/spr_pile_coins/spr_pile_coins.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pile_coins","path":"sprites/spr_pile_coins/spr_pile_coins.yy",},"resourceVersion":"1.0","name":"c00dc565-169b-44b8-8608-31a869c251df","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"map_stand","path":"sprites/map_stand/map_stand.yy",},
+    "spriteId": {"name":"spr_pile_coins","path":"sprites/spr_pile_coins/spr_pile_coins.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"959d70e6-5f13-4410-bf34-44e95d6d1c4f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"931b3128-5501-4e56-8d20-f1728fcf7d28","path":"sprites/map_stand/map_stand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"72b242ea-5195-4b51-b1cf-2011759fb0d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c00dc565-169b-44b8-8608-31a869c251df","path":"sprites/spr_pile_coins/spr_pile_coins.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"map_stand","path":"sprites/map_stand/map_stand.yy",},
+    "parent": {"name":"spr_pile_coins","path":"sprites/spr_pile_coins/spr_pile_coins.yy",},
     "resourceVersion": "1.3",
-    "name": "map_stand",
+    "name": "spr_pile_coins",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1865baeb-c5f1-44a2-b9bf-72944050806c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e1917b29-b098-40c4-bb69-23af114bceda","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Sprites/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "map_stand",
+  "name": "spr_pile_coins",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_npc",
-    "path": "sprites/spr_npc/spr_npc.yy",
+    "name": "spr_npc1_idle",
+    "path": "sprites/spr_npc1_idle/spr_npc1_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,8 +32,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "NPCs",
+    "path": "folders/Objects/NPCs.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_npc_one",
