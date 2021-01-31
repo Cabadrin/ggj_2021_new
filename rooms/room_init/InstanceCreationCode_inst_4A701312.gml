@@ -1,2 +1,2 @@
-target = room_woods;
+target = room_map;
 visible = false;
