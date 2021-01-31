@@ -58,6 +58,16 @@ if(place_meeting(x,y+vsp,par_collidable))
 //Now set my vertical movement
 y += vsp;
 
+if (vsp != 0) || (hsp != 0)
+{
+	if (playing_walk < 0)
+	{
+		audio_play_sound(choose(snd_move_one,snd_move_two,snd_move_three,snd_move_four,snd_move_five,snd_move_six),4,false);
+		playing_walk = 30
+	}
+}
+playing_walk = playing_walk - 1;
+
 //Animation controls - what sprite index we should be using
 var v_old_sprite = sprite_index;
 
