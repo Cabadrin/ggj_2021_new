@@ -13,6 +13,7 @@ with (obj_player)
 			global.damage_cooldown = 30;
 			//Trigger 3 frames of flashing to the player to make them know they're taking damage
 			flash = 3;
+			audio_play_sound(snd_spear_trap,4,false);
 		}
 	}
 }

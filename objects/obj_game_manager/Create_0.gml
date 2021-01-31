@@ -17,6 +17,7 @@ global.damage_cooldown = 0;
 global.player_health = 40;
 global.inkwell = false;
 global.quill = false;
+global.pen = false;
 
 //Make these objects invisible if they're not already
 //We don't want players to see them
