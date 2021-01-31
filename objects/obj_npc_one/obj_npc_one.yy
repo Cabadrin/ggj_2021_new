@@ -29,7 +29,7 @@
   ],
   "properties": [
     {"varType":2,"value":"\"Hey Mapwell! I really need you to find me some gold\\nThere's a scary Orc to the west\\nCan you find me a safe way around?\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_unfulfilled","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":2,"value":"\"Holy smokes! A safe way!\\nGuess I'm eating well tonight!\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_fulfilled","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"\"You found the treasure? Great! \\nCan you make a map for me to show me where it is?\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_fulfilled","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
