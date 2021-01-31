@@ -97,3 +97,9 @@ if (spd_walk < 4)
 input_direction = point_direction(0,0,key_right - key_left,key_down - key_up)
 //If it equals zero, it cancels each other out to don't move. If it isn't 0, we do want to move.
 input_magnitude = ( key_right - key_left != 0) || (key_down - key_up != 0)
+
+
+if (global.player_health <= 0)
+{
+	room_goto(room_failed);
+}
