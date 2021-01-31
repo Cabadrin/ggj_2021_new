@@ -17,8 +17,8 @@ move_distance_remaining = 0;
 //used for shadows
 z = 0;
 
-sprite_run = spr_player4_anim_strip;
-sprite_idle = spr_player4_idle_anim;
+sprite_run = spr_mapwell_idle;
+sprite_idle = spr_mapwell_idle;
 sprite_jump = spr_player4_jump_strip;
 
 local_frame = 0;

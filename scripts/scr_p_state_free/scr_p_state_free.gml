@@ -16,9 +16,9 @@ function scr_player_state_free() {
 		//Only set my direction when I have pressed a key / moved
 		//Also makes certain we always get a direction, regardless of the input value (what if we had more than 360?)
 		direction = input_direction;
-		sprite_index = spr_player4_anim_strip;
+		sprite_index = spr_mapwell_idle;
 	
-	} else sprite_index = spr_player4_idle_anim;
+	} else sprite_index = spr_mapwell_idle;
 
 	//When we start moving again, make sure we start from the beginning of the animation
 	if (v_old_sprite != sprite_index) local_frame = 0;

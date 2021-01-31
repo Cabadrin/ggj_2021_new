@@ -13,6 +13,7 @@ if (point_in_circle(obj_player.x,obj_player.y,x,y,128)) && (!instance_exists(obj
 		else
 		{
 		text = other.text_fulfilled;
+		global.quest_stage = 2;
 		}
 		length = string_length(text);
 		with (obj_camera)

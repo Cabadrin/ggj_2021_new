@@ -42,11 +42,8 @@ if(place_meeting(x+hsp,y,par_collidable))
 	}
 	hsp = 0
 }
-x = x + hsp;
+x += hsp;
 
-
-//Now set my horizontal movement
-x = x + hsp;
 
 //Find out if there's a collidable object vertically
 if(place_meeting(x,y+vsp,par_collidable))
@@ -70,15 +67,21 @@ if (h_move != 0) or (v_move != 0)
 	//Only set my direction when I have pressed a key / moved
 	//Also makes certain we always get a direction, regardless of the input value (what if we had more than 360?)
 	direction = input_direction;
-	sprite_index = spr_player4_anim_strip;
+	sprite_index = spr_mapwell_idle;
 	
-} else sprite_index = spr_player4_idle_anim;
+} else sprite_index = spr_mapwell_idle;
 
 //When we start moving again, make sure we start from the beginning of the animation
 if (v_old_sprite != sprite_index) local_frame = 0;
 
 //Update my image sprite
 scr_player_animate();
+
+//Speed me up gradually if something slowed me down
+if (spd_walk < 4)
+{
+	spd_walk = min(spd_walk + 0.01, 4);
+}
 
 //Let's get the direction angle we want to move in
 input_direction = point_direction(0,0,key_right - key_left,key_down - key_up)

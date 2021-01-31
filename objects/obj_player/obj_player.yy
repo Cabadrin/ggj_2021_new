@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player4_idle_anim",
-    "path": "sprites/spr_player4_idle_anim/spr_player4_idle_anim.yy",
+    "name": "spr_mapwell_idle",
+    "path": "sprites/spr_mapwell_idle/spr_mapwell_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,6 @@
   "properties": [
     {"varType":0,"value":"4.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spd_walk","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"8.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"speed_jump","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"40","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"player_health","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"flash","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
