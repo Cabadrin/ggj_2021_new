@@ -1,2 +1,2 @@
-target = room_woods_two;
+target = room_dungeon_two;
 visible = false;

@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_","path":"objects/obj_/obj_.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_coin_stack","path":"objects/obj_coin_stack/obj_coin_stack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Items/Quest Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_",
+  "name": "obj_coin_stack",
   "tags": [],
   "resourceType": "GMObject",
 }

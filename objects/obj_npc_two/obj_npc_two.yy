@@ -27,9 +27,9 @@
     {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_npc_two","path":"objects/obj_npc_two/obj_npc_two.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":2,"value":"\"Hey Mapwell! I really need you to find me some gold\\nThere's a scary Orc to the west\\nCan you find me a safe way around?\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_unfulfilled","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":2,"value":"\"Holy smokes! A safe way!\\nGuess I'm eating well tonight!\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_fulfilled","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":2,"value":"\"Come back when you're older\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_dismiss","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"\"Did you really mess with an Orc? Not bad\\nI've got a job for you if you can take it\\nThere's a dangerous route through a dungeon and tons of treasure\\nI need it for my coin collection. Got it? Good!\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_unfulfilled","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"\"You survived! What a surprise ... I mean, I always believed in you!\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_fulfilled","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"\"A map? Clearing dungeons? Yeah right ...\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text_dismiss","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

@@ -5,15 +5,19 @@ if (point_in_circle(obj_player.x,obj_player.y,x,y,128)) && (!instance_exists(obj
 	with (instance_create_layer(x,y - 64,"foreground_decor",obj_text))
 	{
 		//Render the text that lives in the object
-		if (global.quest_stage == 3)
+		if (global.quest_stage == 2)
 		{
 		text = other.text_unfulfilled;
-		global.quest_stage = 4;
+		global.quest_stage = 3;
 		}
 		else if (global.item_two == true)
 		{
 		text = other.text_fulfilled;
-		global.quest_stage = 5;
+		global.quest_stage = 4;
+		}
+		else
+		{
+		text = other.text_dismiss;
 		}
 		length = string_length(text);
 		with (obj_camera)
